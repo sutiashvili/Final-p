@@ -51,7 +51,7 @@ p {
 .header-wrap {
   max-width: 100%;
   width: 100%;
-  background-color: gray;
+  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -178,7 +178,7 @@ nav ul li a:hover{
 .section2-wrapper {
   max-width: 100%;
   width: 100%;
-  background-color: gray;
+  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -247,7 +247,7 @@ nav ul li a:hover{
 .section4-wrapper {
   max-width: 100%;
   width: 100%;
-  background-color: darkgray;
+  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -257,7 +257,7 @@ nav ul li a:hover{
 
 
 .location {
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
 
   border: 1px solid black;
@@ -340,6 +340,15 @@ nav ul li a:hover{
   opacity: 1;
 }
 
+.inputEmail, .inputName {
+  background-color: gray;
+  
+}
+
+::placeholder {
+  color: white;
+}
+
 .footer-col input{
   border: none;
   width: 250px;
@@ -378,3 +387,4 @@ nav ul li a:hover{
 .social-icons a i:hover{
   opacity: 1;
 }
+
