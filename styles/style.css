@@ -190,6 +190,7 @@ nav ul li a:hover{
   align-items: center;
   flex-wrap: wrap;
   padding: 50px 0;
+  gap: 50px;
   /* position: relative; */
 
 }
@@ -235,6 +236,7 @@ nav ul li a:hover{
   flex-wrap: wrap;
   width: 100%;
   padding: 50px 0;
+  gap: 50px ;
 
 }
 
@@ -259,6 +261,7 @@ nav ul li a:hover{
   align-items: center;
   flex-wrap: wrap;
   padding: 100px 0;
+  gap: 50px;
 }
 
 
