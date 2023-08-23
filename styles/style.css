@@ -51,9 +51,14 @@ p {
   font-size: 30px;
 }
 
+header{
+  background-color: black;
+}
+
 .header-wrap {
   max-width: 100%;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   background-color: black;
   display: flex;
   justify-content: space-around;
@@ -254,7 +259,8 @@ nav ul li a:hover{
 
 .section4-wrapper {
   max-width: 100%;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   /* background-color: black; */
   display: flex;
   justify-content: space-around;
@@ -297,15 +303,23 @@ nav ul li a:hover{
   margin-bottom: 30px;
 }
 /* footer */
+footer{
+  background-color: black;
+}
+
 .container {
   background-color: black;
+  max-width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
   align-items:first baseline baseline;
-  padding: 40px 100px 10px;
+  gap: 100px;
+  /* padding: 40px 100px 10px; */
  
 }
 
@@ -398,3 +412,9 @@ nav ul li a:hover{
   opacity: 1;
 }
 
+
+.col{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
